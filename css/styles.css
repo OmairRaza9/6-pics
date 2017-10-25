@@ -1,4 +1,63 @@
+header{
+background-color: RGB(50, 50, 50);
+color: white;
+text-align: center;
+padding: 1px 0px;
+}
+
 .edit_delete{
-  background-color: yellow;
+  background-color: gold;
   text-align: center;
+}
+
+.each{
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.each img {
+  width: 300px;
+  height: 300px;
+}
+.top_nav li{
+  display: inline-block;
+  list-style-type:: none;
+  padding: 5PX 7.5PX;
+  color: white;
+  background-color: RGB(211, 211, 211);
+}
+.top_nav{
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+
+}
+.all-pics{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.photo_count{
+  background-color: RGB(120, 240, 203);
+}
+.photo_count h3 {
+  margin-left: 2%;
+  font-size: 30px;
+  text-align: left;
+}
+
+
+span{
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-color: yellow;
+  width: 80%;
+}
+
+footer{
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 1.5px 0;
 }
